@@ -15,4 +15,12 @@ A Chrome Extension that once setup, autofills your Okta 2FA forms.
 
 Scroll down until you see the "Create Access Token" button, click it
 
-then copy & paste the access token into here, then click "Save".
+then copy the access token
+
+* Visit chrome-extension://obaepnapdcdieeknjihngajlegfolpoc/options.html 
+
+then paste and "Save" the settings.
+
+* Try to access a 2FA form, assuming everything is setup, and your phone
+
+is on, the extension should fill for you the code from now on
