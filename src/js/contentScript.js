@@ -11,5 +11,15 @@ chrome.runtime.onMessage.addListener(function (msg, sender, sendResponse) {
       sendResponse({ action: 'okta-mfa-form-submit-success' });
     }
     sendResponse({ action: 'okta-mfa-form-submit-failure', reason: 'Couldn\'t find Input field in active tab' });
+  } else if(msg.action === 'okta-sms-send') {
+    setTimeout(function() {
+      const oktaSMSReqBtn = document.querySelector('a.sms-request-button');
+      if (oktaSMSReqBtn) {
+        oktaSMSReqBtn.click();
+        sendResponse({ action: 'okta-sms-sent' });
+      } else {
+        sendResponse({ action: 'okta-sms-no-req-form' });
+      }
+    }, 4000);
   }
 });
