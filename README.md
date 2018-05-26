@@ -1,13 +1,13 @@
-#Autofill Okta
+# Autofill Okta
 
 A Chrome Extension that once setup, autofills your Okta 2FA forms.
 
-##Requirements
+## Requirements
 
 * Pushbullet installed on your phone & a Pushbullet access token
 * Okta setup with Phone SMS 2FA (No Google Authenticator support)
 
-##Setup
+## Setup
 
 * Install the extension
 * Install Pushbullet on your phone in case you don't have it yet
