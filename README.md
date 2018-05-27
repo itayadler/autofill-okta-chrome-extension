@@ -1,6 +1,6 @@
 # Autofill Okta
 
-A Chrome Extension that once setup, autofills your Okta 2FA forms.
+A Chrome Extension that autofills your Okta 2FA forms.
 
 ## Requirements
 
