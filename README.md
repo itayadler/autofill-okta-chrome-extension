@@ -17,7 +17,7 @@ Scroll down until you see the "Create Access Token" button, click it
 
 then copy the access token
 
-* Visit chrome-extension://obaepnapdcdieeknjihngajlegfolpoc/options.html 
+* Visit chrome-extension://ipdfjcnfefckiklebipldggmconhpkia/options.html
 
 then paste and "Save" the settings.
 
