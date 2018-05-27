@@ -9,7 +9,7 @@ A Chrome Extension that once setup, autofills your Okta 2FA forms.
 
 ## Setup
 
-* Install the extension
+* Install the extension (https://chrome.google.com/webstore/detail/autofill-okta/ipdfjcnfefckiklebipldggmconhpkia)
 * Install Pushbullet on your phone in case you don't have it yet
 * Visit https://www.pushbullet.com/#settings
 
